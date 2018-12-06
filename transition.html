@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>mppt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="./reveal.js/reveal.min.css">
+	<link rel="stylesheet" href="./reveal.js/theme/night.css" id="theme">
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<p class="fragment grow">grow</p>
+				<p class="fragment shrink">shrink</p>
+				<p class="fragment fade-out">fade-out</p>
+				<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+				<p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
+				<p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
+				<p class="fragment highlight-current-blue">blue only once</p>
+				<p class="fragment highlight-red">highlight-red</p>
+				<p class="fragment highlight-green">highlight-green</p>
+				<p class="fragment highlight-blue">highlight-blue</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be fade</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be fade</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be concave</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be convex</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be none</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be fade</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be fade-in slide-out</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be none</p>
+			</section>
+			<section>
+				<h2>transition</h2>
+				<p>this will be slide-in fade-out</p>
+			</section>
+			<section>
+				<h2>end</h2>
+				<p>this is end</p>
+			</section>
+		</div>
+	</div>
+	<script src="./reveal.js/head.min.js"></script>
+	<script src="./reveal.js/reveal.min.js"></script>
+	<script>
+	Reveal.initialize({
+		// transition: 'none',
+		// transition: 'fade',
+		// transition: 'slide',
+		// transition: 'convex',
+		// transition: 'concave',
+		transition: 'zoom',
+		transitionSpeed: 'slow', // default/fast/slow
+		progress: true,
+		slideNumber: true,
+		controls: true,
+		controlsTutorial: true,
+		controlsBackArrows: 'visible',
+		controlsLayout: 'edges',
+		overview: false,
+		hideAddressBar: false,
+		viewDistance: 30,
+		// parallaxBackgroundImage: 'https://www.baidu.com/img/bd_logo1.png?where=super',
+		// parallaxBackgroundSize: '100px 100px',
+	});
+	</script>
+</body>
+</html>
